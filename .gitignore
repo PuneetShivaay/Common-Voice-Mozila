@@ -1,46 +1,23 @@
+# Dependencies & Build
 node_modules/
 **/node_modules/
-
-# ========================
-# React / Frontend
-# ========================
 frontend/node_modules/
 frontend/build/
 frontend/dist/
-frontend/.pnp
-frontend/.pnp.js
-frontend/.env.local
-frontend/.env.development.local
-frontend/.env.test.local
-frontend/.env.production.local
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# ========================
-# Spring Boot / Backend
-# ========================
 backend/target/
 backend/build/
-backend/*.jar
-backend/*.war
-backend/.gradle/
-backend/out/
+*.jar
+*.war
 
-# ========================
-# Environment & Secrets
-# ========================
+# Environment & Logs
 .env
-*.env
+*.log
+npm-debug.log*
+yarn-debug.log*
 
-# ========================
-# IDE & System Files
-# ========================
+# OS & IDE
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 *.iml
-*.iws
-*.ipr
-*.log
