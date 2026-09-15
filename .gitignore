@@ -1,23 +1,46 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+node_modules/
+**/node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+# ========================
+# React / Frontend
+# ========================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.pnp
+frontend/.pnp.js
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ========================
+# Spring Boot / Backend
+# ========================
+backend/target/
+backend/build/
+backend/*.jar
+backend/*.war
+backend/.gradle/
+backend/out/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+*.env
+
+# ========================
+# IDE & System Files
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.log
